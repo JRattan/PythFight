@@ -1,0 +1,56 @@
+README
+Python Fighter v.0.2 by JRattan
+
+Description:
+  This is a pygame project I made a couple of months back. 
+  Basically a simple fighting game developed using python as I don't see much
+  fighting games around. Still needs a lot of improving.
+
+Used: Python 3.3 with Pygame 1.9.1
+
+----------------------------------------------------------------------------------
+
+Controls:
+  x           - Attack
+  up          - Jump
+  down        - Crouch
+  left/right  - Move/Block
+  enter       - Pause/Confirm
+  space       - Switch to Debug Mode
+  esc         - Exit game
+
+Attack Types:
+  low: attack when crouching
+     : can be blocked only when crouching
+  mid: attack when standing
+     : can be blocked
+  high: attack when on the air
+     : can be blocked only when standing
+----------------------------------------------------------------------------------
+Title Screen:
+  Press left/right to change the number of rounds in the match.
+  Press X to 
+	 
+Debug Mode:
+  Both characters are AI controlled. Can still Pause the game.
+  
+Pause Mode:
+  Can choose to continue or end the match returning you to the title screen.
+  If Commentary Mode
+
+Credits to:
+  - Chumbucket for the sprite template
+  
+----------------------------------------------------------------------------------  
+Changelog: (4/19/2013)
+  - Added one character and level  
+  - Added movements (left, right, jump)
+  - Added Simple Action commands (High attack, middle attack, low attack)
+  - Added Blocking
+  - Added Health meter, Timer, and Number of Rounds (From 1-9)
+  - Added Commentary Mode
+  - Added AI (AI just simple random integers)
+  - Added Pause mode
+  - Added Victory scene
+  - Currently located all in one file (need to change that)
+  - Code is dictionary-based, not object-based (need to change that)
