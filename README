@@ -4,7 +4,9 @@ Python Fighter v.0.2 by JRattan
 Description:
   This is a pygame project I made a couple of months back. 
   Basically a simple fighting game developed using python as I don't see much
-  fighting games around. Still needs a lot of improving.
+  fighting games around. 
+  
+  Still needs a lot of improving. Needs more documentation as well.
 
 Used: Python 3.3 with Pygame 1.9.1
 
@@ -29,7 +31,8 @@ Attack Types:
 ----------------------------------------------------------------------------------
 Title Screen:
   Press left/right to change the number of rounds in the match.
-  Press X to 
+  Press X to enable commentary mode.
+  Press Enter to start the match.
 	 
 Debug Mode:
   Both characters are AI controlled. Can still Pause the game.
